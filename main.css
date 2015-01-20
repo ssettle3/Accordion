@@ -35,18 +35,7 @@ h1{
 p{
 	padding: 20px;
 }
-
-.section1 h1:hover{
-	background: navy;
-	color: #53BFF3;
-	cursor: pointer;
-}
-.section2 h1:hover{
-	background: navy;
-	color: #53BFF3;
-	cursor: pointer;
-}
-.section3 h1:hover{
+h1:hover{
 	background: navy;
 	color: #53BFF3;
 	cursor: pointer;
