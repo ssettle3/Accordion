@@ -19,14 +19,17 @@ h1{
 .sec1txt{
 	height: 0px;
 	overflow: hidden;
+	transition: all 2s ease;
 }
 .sec2txt{
 	height: 0px;
 	overflow: hidden;
+	transition: all 2s ease;
 }
 .sec3txt{
-height: 0px;
-overflow: hidden;
+	height: 0px;
+	overflow: hidden;
+	transition: all 2s ease;
 }
 
 p{
@@ -50,10 +53,13 @@ p{
 }
 .sec1txt-active{
 	height: 200px;
+	transition: all 2s ease;
 }
 .sec2txt-active{
 	height: 200px;
+	transition: all 2s ease;
 }
 .sec3txt-active{
 	height: 200px;
+	transition: all 2s ease;
 }
