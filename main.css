@@ -1,18 +1,59 @@
-.container{
+.accordion{
 	width: 500px;
 	font-family: Arial;
 	margin: 0 auto;
-	border: 2px solid black;
+	border: 2px solid #53BFF3;
+	border-radius: 5px;
+	margin-top: 50px;
 }
 
 h1{
 	font-size: 50px;
-	color: yellow;
-	background: black;
+	color: white;
+	background: #53BFF3;
 	margin-top: 0px; 
+	margin-bottom: 0px;
 	padding-left: 20px;
+	transition: all 1s ease;
+}
+.sec1txt{
+	height: 0px;
+	overflow: hidden;
+}
+.sec2txt{
+	height: 0px;
+	overflow: hidden;
+}
+.sec3txt{
+height: 0px;
+overflow: hidden;
 }
 
 p{
 	padding: 20px;
+}
+
+.section1 h1:hover{
+	background: navy;
+	color: #53BFF3;
+	cursor: pointer;
+}
+.section2 h1:hover{
+	background: navy;
+	color: #53BFF3;
+	cursor: pointer;
+}
+.section3 h1:hover{
+	background: navy;
+	color: #53BFF3;
+	cursor: pointer;
+}
+.sec1txt-active{
+	height: 200px;
+}
+.sec2txt-active{
+	height: 200px;
+}
+.sec3txt-active{
+	height: 200px;
 }
